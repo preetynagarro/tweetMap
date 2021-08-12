@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tweetApp.iml" filepath="$PROJECT_DIR$/.idea/modules/tweetApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/tweetApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/tweetApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/tweetApp.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/tweetApp.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/tweetApp.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/tweetApp.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/tweetApp.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/tweetApp.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/tweetApp.features.iml" filepath="$PROJECT_DIR$/.idea/modules/features/tweetApp.features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/profile/tweetApp.features.profile.iml" filepath="$PROJECT_DIR$/.idea/modules/features/profile/tweetApp.features.profile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/tweetmap/tweetApp.features.tweetmap.iml" filepath="$PROJECT_DIR$/.idea/modules/features/tweetmap/tweetApp.features.tweetmap.iml" />
+    </modules>
+  </component>
+</project>

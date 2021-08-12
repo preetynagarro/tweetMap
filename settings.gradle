@@ -1,0 +1,8 @@
+
+include ':features:tweetmap'
+include ':features:profile'
+include ':core'
+include ':data'
+include ':domain'
+include ':app'
+rootProject.name = "tweetApp"

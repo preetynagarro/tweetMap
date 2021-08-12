@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: org.koin:koin-androidx-ext:2.1.6@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/63bb17429370fd2349a1630f22e5bc38/jetified-koin-androidx-ext-2.1.6/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/7ffe11baaebe69977dbd7402cadc5d73/jetified-koin-androidx-ext-2.1.6/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/7ffe11baaebe69977dbd7402cadc5d73/jetified-koin-androidx-ext-2.1.6/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/7ffe11baaebe69977dbd7402cadc5d73/jetified-koin-androidx-ext-2.1.6/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/modules-2/files-2.1/org.koin/koin-androidx-ext/2.1.6/d6f35ec65abd92ffe30a6075a47904745cf341cf/koin-androidx-ext-2.1.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/modules-2/files-2.1/org.koin/koin-androidx-ext/2.1.6/efd05d7374f5508642a874f370d423be8ac21bb3/koin-androidx-ext-2.1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
