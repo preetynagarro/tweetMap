@@ -47,14 +47,6 @@ android {
             dimension "server"
         }
 
-        uat {
-            dimension "server"
-        }
-
-        pilot {
-            dimension "server"
-        }
-
         prod {
             dimension "server"
         }

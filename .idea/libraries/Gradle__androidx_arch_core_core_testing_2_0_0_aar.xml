@@ -5,10 +5,14 @@
       <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/30f9d689e820b99ad4bfed824180786f/core-testing-2.0.0/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/30f9d689e820b99ad4bfed824180786f/core-testing-2.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/30f9d689e820b99ad4bfed824180786f/core-testing-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/30f9d689e820b99ad4bfed824180786f/core-testing-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/30f9d689e820b99ad4bfed824180786f/core-testing-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/30f9d689e820b99ad4bfed824180786f/core-testing-2.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/modules-2/files-2.1/androidx.arch.core/core-testing/2.0.0/a53c7e5ac1082c8ba113336aea25c46c8611be2d/core-testing-2.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/modules-2/files-2.1/androidx.arch.core/core-testing/2.0.0/a53c7e5ac1082c8ba113336aea25c46c8611be2d/core-testing-2.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

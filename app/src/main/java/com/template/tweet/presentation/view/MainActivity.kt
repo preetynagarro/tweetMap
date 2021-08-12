@@ -29,4 +29,5 @@ class MainActivity : BaseActivity<MainViewModel, ActivityMainBinding>(MainViewMo
     override fun onSupportNavigateUp(): Boolean {
         return Navigation.findNavController(this, R.id.fragment_container_view).navigateUp()
     }
+
 }

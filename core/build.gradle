@@ -47,15 +47,6 @@ android {
             buildConfigField "Boolean", "IS_PINNING_ENABLED", 'false'
         }
 
-        uat {
-            dimension "server"
-            buildConfigField "Boolean", "IS_PINNING_ENABLED", 'false'
-        }
-
-        pilot {
-            dimension "server"
-            buildConfigField "Boolean", "IS_PINNING_ENABLED", 'false'
-        }
 
         prod {
             dimension "server"

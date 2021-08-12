@@ -7,7 +7,7 @@ import com.template.core.di.module.application.OkhttpModule
 import com.template.data.di.ApiModule
 import com.template.data.di.RepositoryModule
 import com.template.domain.di.UseCaseModule
-import com.template.tweet_list.di.OnboardingViewModelModule
+import com.template.tweet_list.di.TweetListViewModelModule
 
 /****
  * Application component which loads all the Koin Modules
@@ -21,7 +21,7 @@ object ApplicationComponent {
         ApiModule.load()
         ApplicationModule.load()
         ViewModelModule.load()
-        OnboardingViewModelModule.load()
+        TweetListViewModelModule.load()
 
     }
 }

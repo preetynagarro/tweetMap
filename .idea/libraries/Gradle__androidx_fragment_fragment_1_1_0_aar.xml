@@ -2,16 +2,21 @@
   <library name="Gradle: androidx.fragment:fragment:1.1.0@aar">
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/eea1ddf478c344b17015685fba616f26/fragment-1.1.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/eea1ddf478c344b17015685fba616f26/fragment-1.1.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/f86931a7b41d6f3f718a8c82ddecb998/fragment-1.1.0/res" />
       <root url="jar://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/eea1ddf478c344b17015685fba616f26/fragment-1.1.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/eea1ddf478c344b17015685fba616f26/fragment-1.1.0/res" />
       <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/eea1ddf478c344b17015685fba616f26/fragment-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/eea1ddf478c344b17015685fba616f26/fragment-1.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/eea1ddf478c344b17015685fba616f26/fragment-1.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/eea1ddf478c344b17015685fba616f26/fragment-1.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/b9ebb04df2cb0cad4419af3c658690bc82aa5706/fragment-1.1.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/b9ebb04df2cb0cad4419af3c658690bc82aa5706/fragment-1.1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
