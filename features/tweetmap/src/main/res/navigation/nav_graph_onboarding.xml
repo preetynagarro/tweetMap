@@ -3,16 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/onboarding_nav_graph"
-    app:startDestination="@id/dashboardFragment">
+    app:startDestination="@id/tweetFragment">
 
 
 
 
     <fragment
-        android:id="@+id/dashboardFragment"
-        android:name="com.template.tweet_list.view.fragment.dashboard.DashboardFragment"
+        android:id="@+id/tweetFragment"
+        android:name="com.template.tweet_list.view.fragment.tweetList.TweetFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard">
+        tools:layout="@layout/fragment_tweet">
 
         <action android:id="@+id/action_login_to_profile"
             app:destination="@id/profile_nav_graph"

@@ -1,7 +1,7 @@
 package com.template.data.di
 
-import com.template.data.repository.AuthRepositoryImpl
-import com.template.domain.repository.IAuthRepository
+import com.template.data.repository.TweetRepositoryImpl
+import com.template.domain.repository.TweetRepository
 import org.koin.core.context.loadKoinModules
 import org.koin.dsl.module
 
@@ -15,6 +15,6 @@ object RepositoryModule {
     }
 
     val repositoryModules = module {
-        factory<IAuthRepository>{ AuthRepositoryImpl(authApi = get()) }
+        factory<TweetRepository>{ TweetRepositoryImpl(tweetApi = get()) }
     }
 }

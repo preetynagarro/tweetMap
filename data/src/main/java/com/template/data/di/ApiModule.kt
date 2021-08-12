@@ -1,6 +1,6 @@
 package com.template.data.di
 
-import com.template.data.datasource.remote.api.IAuthApi
+import com.template.data.datasource.remote.api.TweetApi
 import org.koin.core.context.loadKoinModules
 import org.koin.dsl.module
 import retrofit2.Retrofit
@@ -16,7 +16,7 @@ object ApiModule {
 
     val apiModules = module {
         single {
-            get<Retrofit>().create(IAuthApi::class.java)
+            get<Retrofit>().create(TweetApi::class.java)
         }
     }
 }

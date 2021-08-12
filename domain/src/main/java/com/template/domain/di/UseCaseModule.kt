@@ -1,7 +1,7 @@
 package com.template.domain.di
 
-import com.template.domain.usecases.auth.AuthUseCaseImpl
-import com.template.domain.usecases.auth.IAuthUseCase
+import com.template.domain.usecases.auth.TweetUseCaseImpl
+import com.template.domain.usecases.auth.TweetUseCase
 import org.koin.core.context.loadKoinModules
 import org.koin.dsl.module
 
@@ -11,10 +11,10 @@ import org.koin.dsl.module
  *****/
 object UseCaseModule {
     fun load(){
-        loadKoinModules(authUSeCaseModules)
+        loadKoinModules(tweetUseCaseModules)
     }
 
-    val authUSeCaseModules = module {
-        factory<IAuthUseCase> { AuthUseCaseImpl(authRepository = get()) }
+    val tweetUseCaseModules = module {
+        factory<TweetUseCase> { TweetUseCaseImpl(tweetRepository = get()) }
     }
 }
