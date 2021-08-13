@@ -20,9 +20,6 @@ class HeaderInterceptor : Interceptor {
         val request = requestBuilder.build()
         try {
             response = chain.proceed(request)
-            response.takeIf { isHtmlResponse(it) }?.apply {
-                // throw custom exception
-            }
         } catch (e: Exception) {
             throw e
         }
@@ -38,8 +35,5 @@ class HeaderInterceptor : Interceptor {
         return requestBuilder
     }
 
-    private fun isHtmlResponse(response: Response): Boolean {
-        return response.headers.names().contains("Content-Type")
-                && response.headers["Content-Type"]?.contains("text/html") == true
-    }
+   
 }

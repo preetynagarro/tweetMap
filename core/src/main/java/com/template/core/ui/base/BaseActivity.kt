@@ -9,7 +9,6 @@ import androidx.databinding.ViewDataBinding
 import androidx.lifecycle.ViewModel
 import com.template.core.listeners.BackButtonHandlerListener
 import com.template.core.listeners.BackPressListener
-import com.template.core.utils.LocaleManager
 import com.template.core.viewmodel.ToolbarPropertyViewModel
 import com.template.core.viewmodel.base.BaseViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
@@ -81,15 +80,7 @@ abstract class BaseActivity<V : ViewModel, D : ViewDataBinding>(clazz: KClass<V>
         }
     }
 
-    fun setUpLocale(lngCode: String, isSelected: Boolean = false) {
-        val currentLanguage = LocaleManager.getCurrentLanguage(this)
-        if (!currentLanguage.equals(lngCode, true)) {
-            LocaleManager.setNewLocale(this, lngCode)
-            if (currentLanguage != null || isSelected) {
-                LocaleManager.notifyLanguageChange(this)
-            }
-        }
-    }
+
 
     /**
      * Methods which handles the hardware back button / navigation back view

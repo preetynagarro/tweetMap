@@ -29,7 +29,7 @@ buildscript {
        coroutineVersion = '1.3.8'
        roomVersion = '2.3.0'
        timberVersion = '4.7.1'
-       urlConnectionVersion = '3.11.0'
+       urlConnectionVersion = '4.4.1'
        timberVersion = '4.7.1'
        calligrapyVersion = '3.1.1'
        viewpumpVersion = '2.0.3'

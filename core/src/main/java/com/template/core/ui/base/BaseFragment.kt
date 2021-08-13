@@ -184,12 +184,7 @@ abstract class BaseFragment<V : ViewModel, D : ViewDataBinding>(clazz: KClass<V>
         return (viewModel as BaseViewModel).toolbarPropertyViewModel
     }
 
-    /**
-     * setting up locally
-     */
-    fun setAppLocale(lngCode: String) {
-        (activity as? BaseActivity<*, *>)?.setUpLocale(lngCode)
-    }
+
 
     /**
      * Return the base activity
