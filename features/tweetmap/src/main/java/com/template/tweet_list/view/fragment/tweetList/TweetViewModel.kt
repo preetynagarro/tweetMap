@@ -3,9 +3,11 @@ package com.template.tweet_list.view.fragment.tweetList
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.template.core.viewmodel.base.BaseViewModel
+import com.template.domain.common.AppSession
 import com.template.domain.common.ResultState
-import com.template.domain.entity.response.auth.TweetEntity
-import com.template.domain.usecases.auth.TweetUseCase
+import com.template.domain.entity.response.auth.AccessTokenEntity
+import com.template.domain.entity.response.tweet.TweetEntity
+import com.template.domain.usecases.tweet.TweetUseCase
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
@@ -15,9 +17,14 @@ class TweetViewModel constructor(
 ) : BaseViewModel() {
     val data = MutableLiveData(false)
     val tweetList = MutableLiveData<TweetEntity.MultipleTweetPayload>()
+    val accessToken = MutableLiveData<AccessTokenEntity.AccessToken>()
 
-     fun searchTweet() {
-        loadTweet()
+
+    fun searchTweet() {
+        when {
+            AppSession.getAccessToken() != null -> loadTweet()
+            else -> getAccessToken()
+        }
     }
 
     private fun loadTweet() {
@@ -27,7 +34,31 @@ class TweetViewModel constructor(
                 .collect { state ->
                     when (state) {
                         is ResultState.Success -> {
-                            tweetList.value =  state.data
+                            tweetList.value = state.data
+                            data.value = true
+                            showLoading(false)
+
+                        }
+
+                        is ResultState.Error -> {
+                            setError(error = state.error)
+                            showLoading(false)
+                        }
+                    }
+
+                }
+
+        }
+    }
+
+    fun getAccessToken() {
+        showLoading(true)
+        viewModelScope.launch {
+            tweetUseCase.accessToken()
+                .collect { state ->
+                    when (state) {
+                        is ResultState.Success -> {
+                            accessToken.value = state.data
                             data.value = true
                             showLoading(false)
 

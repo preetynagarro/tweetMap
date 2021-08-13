@@ -1,7 +1,7 @@
 package com.template.data.mapper.dtotoentity
 
 import com.template.data.datasource.remote.dto.TweetDto
-import com.template.domain.entity.response.auth.TweetEntity
+import com.template.domain.entity.response.tweet.TweetEntity
 
 fun TweetDto.TweetData.map() = TweetEntity.TweetData(
     id = id,

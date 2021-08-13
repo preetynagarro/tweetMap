@@ -22,6 +22,7 @@ import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
 import com.template.core.ui.base.BaseFragment
+import com.template.domain.common.AppSession
 import com.template.tweet_list.BR
 import com.template.tweet_list.R
 import com.template.tweet_list.databinding.FragmentTweetBinding
@@ -62,6 +63,8 @@ class TweetFragment :
         super.onViewCreated(view, savedInstanceState)
         val mapFragment = childFragmentManager.findFragmentById(R.id.mapView) as SupportMapFragment
         mapFragment.getMapAsync(this)
+        viewModel.getAccessToken()
+
         observeMutableData()
     }
 
@@ -233,11 +236,16 @@ class TweetFragment :
             it.includes?.tweets?.forEach { tweet ->
                 val lat = tweet.geo?.coordinates?.coordinates?.get(0)
                 val lng = tweet.geo?.coordinates?.coordinates?.get(1)
-                val latLng =LatLng(lat!!,lng!!)
+                val latLng = LatLng(lat!!, lng!!)
                 placeMarkerOnMap(latLng)
 
 
             }
+        })
+        viewModel.accessToken.observe(requireActivity(), {
+
+            AppSession.setAccessToken(it.access_token)
+
         })
     }
 

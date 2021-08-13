@@ -14,7 +14,7 @@ import okhttp3.Response
 class HeaderInterceptor : Interceptor {
 
     override fun intercept(chain: Interceptor.Chain): Response {
-        var response: Response?
+        val response: Response?
         var requestBuilder: Request.Builder = chain.request().newBuilder()
         requestBuilder = addCommonHeaders(requestBuilder)
         val request = requestBuilder.build()
@@ -31,6 +31,7 @@ class HeaderInterceptor : Interceptor {
      */
     private fun addCommonHeaders(requestBuilder: Request.Builder): Request.Builder {
         // Add all the common headers here
+        if(AppSession.getAccessToken() != null)
         requestBuilder.addHeader(AUTHORIZATION, BEARER+AppSession.getAccessToken())
         return requestBuilder
     }

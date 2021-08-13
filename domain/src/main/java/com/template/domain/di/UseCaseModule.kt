@@ -1,7 +1,7 @@
 package com.template.domain.di
 
-import com.template.domain.usecases.auth.TweetUseCaseImpl
-import com.template.domain.usecases.auth.TweetUseCase
+import com.template.domain.usecases.tweet.TweetUseCaseImpl
+import com.template.domain.usecases.tweet.TweetUseCase
 import org.koin.core.context.loadKoinModules
 import org.koin.dsl.module
 

@@ -12,11 +12,10 @@ object Configuration {
     private const val PROD = "prod"
 
     // Host URLs
-    private const val DEV_URL = "https://api.twitter.com/2/tweets/"
-    private const val PROD_URL = "https://api.twitter.com/2/tweets/"
+    private const val DEV_URL = "https://api.twitter.com/"
+    private const val PROD_URL = "https://api.twitter.com/"
     private const val USERS_ENDPOINT = "users"
 
-    const val AUTH_BASE_URL = "https://api.twitter.com/oauth/"
     const val REQUEST_TOKEN_ENDPOINT = "request_token"
     const val ACCESS_TOKEN_ENDPOINT = "access_token"
 
