@@ -3,6 +3,7 @@ package com.template.data.repository
 import com.template.data.datasource.remote.api.TweetApi
 import com.template.data.mapper.dtotoentity.map
 import com.template.domain.common.ResultState
+import com.template.domain.entity.request.AccessTokenRequest
 import com.template.domain.entity.response.auth.AccessTokenEntity
 import com.template.domain.entity.response.tweet.TweetEntity
 import com.template.domain.repository.TweetRepository
@@ -23,9 +24,9 @@ class TweetRepositoryImpl(private val tweetApi: TweetApi) :
         emit(apiCall { tweetApi.filterTweet().map()})
     }.flowOn(Dispatchers.IO)
 
-    override fun accessToken( ): Flow<ResultState<AccessTokenEntity.AccessToken>>  =
+    override fun accessToken(accessTokenRequest: AccessTokenRequest.tokenRequest): Flow<ResultState<AccessTokenEntity.AccessToken>>  =
         flow {
-            emit(apiCall { tweetApi.accessToken().map()})
+            emit(apiCall { tweetApi.accessToken(accessTokenRequest).map()})
         }.flowOn(Dispatchers.IO)
 
 

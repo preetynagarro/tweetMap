@@ -8,4 +8,5 @@ object Constants {
     const val LANG_CODE_ENGLISH = "en"
     const val LANG_CODE_ARABIC = "ar"
     const val LANGUAGE_SWITCH = "language_switch"
+    const val GRANT_TYPE = "grant_type"
 }

@@ -1,6 +1,7 @@
 package com.template.domain.usecases.tweet
 
 import com.template.domain.common.ResultState
+import com.template.domain.entity.request.AccessTokenRequest
 import com.template.domain.entity.response.auth.AccessTokenEntity
 import com.template.domain.entity.response.tweet.TweetEntity
 import com.template.domain.repository.TweetRepository
@@ -14,6 +15,6 @@ class TweetUseCaseImpl(private val tweetRepository: TweetRepository) : TweetUseC
 
     override fun filteredTweet(): Flow<ResultState<TweetEntity.MultipleTweetPayload>> =
         tweetRepository.filterTweet()
-    override fun accessToken(): Flow<ResultState<AccessTokenEntity.AccessToken>> =
-        tweetRepository.accessToken()
+    override fun accessToken(accessTokenRequest: AccessTokenRequest.tokenRequest): Flow<ResultState<AccessTokenEntity.AccessToken>> =
+        tweetRepository.accessToken(accessTokenRequest)
 }

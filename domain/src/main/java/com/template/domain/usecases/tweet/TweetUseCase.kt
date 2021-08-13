@@ -1,6 +1,7 @@
 package com.template.domain.usecases.tweet
 
 import com.template.domain.common.ResultState
+import com.template.domain.entity.request.AccessTokenRequest
 import com.template.domain.entity.response.auth.AccessTokenEntity
 import com.template.domain.entity.response.tweet.TweetEntity
 import com.template.domain.usecases.base.BaseUseCase
@@ -12,7 +13,7 @@ import kotlinx.coroutines.flow.Flow
  *****/
 interface TweetUseCase : BaseUseCase {
     fun filteredTweet() : Flow<ResultState<TweetEntity.MultipleTweetPayload>>
-    fun accessToken() : Flow<ResultState<AccessTokenEntity.AccessToken>>
+    fun accessToken(accessTokenRequest: AccessTokenRequest.tokenRequest) : Flow<ResultState<AccessTokenEntity.AccessToken>>
 
 
 }
