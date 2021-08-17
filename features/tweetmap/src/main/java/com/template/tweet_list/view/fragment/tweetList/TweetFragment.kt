@@ -63,7 +63,6 @@ class TweetFragment :
         super.onViewCreated(view, savedInstanceState)
         val mapFragment = childFragmentManager.findFragmentById(R.id.mapView) as SupportMapFragment
         mapFragment.getMapAsync(this)
-
         observeMutableData()
     }
 
@@ -241,11 +240,7 @@ class TweetFragment :
 
             }
         })
-        viewModel.accessToken.observe(requireActivity(), {
 
-            AppSession.setAccessToken(it.access_token)
-
-        })
     }
 
 }

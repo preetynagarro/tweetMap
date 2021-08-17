@@ -31,10 +31,11 @@ class HeaderInterceptor : Interceptor {
      */
     private fun addCommonHeaders(requestBuilder: Request.Builder): Request.Builder {
         // Add all the common headers here
-        if(AppSession.getAccessToken() != null)
-        requestBuilder.addHeader(AUTHORIZATION, BEARER+AppSession.getAccessToken())
+        requestBuilder.addHeader(AUTHORIZATION, "$BEARER ${AppSession.getAccessToken()}")
         return requestBuilder
     }
 
-   
+
+
+
 }

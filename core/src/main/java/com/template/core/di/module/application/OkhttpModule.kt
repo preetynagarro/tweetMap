@@ -11,6 +11,8 @@ import java.net.CookieManager
 import java.util.concurrent.TimeUnit
 
 import com.template.core.BuildConfig
+import com.template.core.interceptors.TokenAuthenticator
+import com.template.data.datasource.remote.api.TweetApi
 
 /****
  * OKhttp Module
@@ -24,6 +26,7 @@ object OkhttpModule {
                 val okHttpBuilder = OkHttpClient()
                     .newBuilder()
                     .addInterceptor(get<HttpLoggingInterceptor>())
+                    .authenticator(get<TokenAuthenticator>())
                     .addInterceptor(get<HeaderInterceptor>())
                     .cookieJar(JavaNetCookieJar(cookieHandler))
                     .connectTimeout(Configuration.CONNECT_TIMEOUT, TimeUnit.SECONDS)
@@ -35,6 +38,9 @@ object OkhttpModule {
 
             single<HeaderInterceptor> {
                 HeaderInterceptor()
+            }
+            single {
+                TokenAuthenticator(lazy { get() as TweetApi })
             }
 
             single {

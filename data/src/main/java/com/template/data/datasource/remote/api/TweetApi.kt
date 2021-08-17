@@ -2,11 +2,7 @@ package com.template.data.datasource.remote.api
 
 import com.template.data.datasource.remote.dto.AccessTokenDto
 import com.template.data.datasource.remote.dto.TweetDto
-import com.template.domain.entity.request.AccessTokenRequest
-import com.template.domain.entity.response.auth.AccessTokenEntity
-import retrofit2.http.Body
-import retrofit2.http.GET
-import retrofit2.http.POST
+import retrofit2.http.*
 
 /****
  * API endpoint of Authentication related service calls
@@ -14,10 +10,17 @@ import retrofit2.http.POST
  *****/
 interface TweetApi {
 
-    @GET("2/tweets/stream")
-    suspend fun filterTweet(): TweetDto.MultipleTweetPayload
+    @GET("2/tweets/search/recent")
+    suspend fun filterTweet(
+        @Query(
+            "query",
+            encoded = true
+        ) query: String?
+    ): TweetDto.MultipleTweetPayload
 
     @POST("oauth2/token")
-    suspend fun accessToken(@Body grant_type: AccessTokenRequest.tokenRequest): AccessTokenDto.AccessToken
-
+    suspend fun accessToken(
+        @Query("grant_type") grantType: String,
+        @Header("Authorization") authHeader: String
+    ): AccessTokenDto.AccessToken
 }

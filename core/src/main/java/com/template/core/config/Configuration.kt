@@ -21,6 +21,8 @@ object Configuration {
 
     //Authentication
     const val AUTHORIZATION ="Authorization"
+    const val CLIENT_KEY ="V1JYSxUgpeMlKnJ8EOF64nliZ"
+    const val CLIENT_SECRET ="l0mlhMnSlBdxnruYFjbOuq8Y6CFOjrj7KWajMyVheMHaSXYraN"
     const val BEARER ="Bearer"
 
     const val CONNECT_TIMEOUT: Long = 60
