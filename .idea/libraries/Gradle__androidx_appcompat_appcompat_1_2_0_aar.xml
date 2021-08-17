@@ -2,15 +2,15 @@
   <library name="Gradle: androidx.appcompat:appcompat:1.2.0@aar">
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/560151e7c8c86a956ab44c768f40a04b/appcompat-1.2.0/annotations.zip!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/560151e7c8c86a956ab44c768f40a04b/appcompat-1.2.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/8438e19cdee01d063545f3c2c0fd8466/appcompat-1.2.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/560151e7c8c86a956ab44c768f40a04b/appcompat-1.2.0/res" />
       <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/560151e7c8c86a956ab44c768f40a04b/appcompat-1.2.0/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/560151e7c8c86a956ab44c768f40a04b/appcompat-1.2.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/560151e7c8c86a956ab44c768f40a04b/appcompat-1.2.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/560151e7c8c86a956ab44c768f40a04b/appcompat-1.2.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/560151e7c8c86a956ab44c768f40a04b/appcompat-1.2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/8438e19cdee01d063545f3c2c0fd8466/appcompat-1.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/8438e19cdee01d063545f3c2c0fd8466/appcompat-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/8438e19cdee01d063545f3c2c0fd8466/appcompat-1.2.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

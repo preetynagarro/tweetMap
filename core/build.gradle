@@ -44,13 +44,11 @@ android {
 
         dev {
             dimension "server"
-            buildConfigField "Boolean", "IS_PINNING_ENABLED", 'false'
         }
 
 
         prod {
             dimension "server"
-            buildConfigField "Boolean", "IS_PINNING_ENABLED", 'false'
         }
     }
 
@@ -59,10 +57,6 @@ android {
     configurations {
         devDebugImplementation
         devReleaseImplementation
-        uatDebugImplementation
-        uatReleaseImplementation
-        pilotDebugImplementation
-        pilotReleaseImplementation
         prodDebugImplementation
         prodReleaseImplementation
     }
@@ -97,9 +91,6 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineVersion"
     implementation "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:$coroutineAdapterVersion"
 
-    //Calligraphy
-    implementation "io.github.inflationx:calligraphy3:$calligrapyVersion"
-    implementation "io.github.inflationx:viewpump:$viewpumpVersion"
 
     // Timber for Logging
     implementation "com.jakewharton.timber:timber:$timberVersion"

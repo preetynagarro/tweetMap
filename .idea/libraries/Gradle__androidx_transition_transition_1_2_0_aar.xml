@@ -2,15 +2,15 @@
   <library name="Gradle: androidx.transition:transition:1.2.0@aar">
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/3e5fa3c7f9d2d51e6aac4118285a7b2f/transition-1.2.0/annotations.zip!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/3e5fa3c7f9d2d51e6aac4118285a7b2f/transition-1.2.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/3b9585dc16178f3de7b7c286f0492755/transition-1.2.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/3e5fa3c7f9d2d51e6aac4118285a7b2f/transition-1.2.0/res" />
       <root url="jar://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/3e5fa3c7f9d2d51e6aac4118285a7b2f/transition-1.2.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/3e5fa3c7f9d2d51e6aac4118285a7b2f/transition-1.2.0/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/3e5fa3c7f9d2d51e6aac4118285a7b2f/transition-1.2.0/res" />
-      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/3e5fa3c7f9d2d51e6aac4118285a7b2f/transition-1.2.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/3e5fa3c7f9d2d51e6aac4118285a7b2f/transition-1.2.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/3b9585dc16178f3de7b7c286f0492755/transition-1.2.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/3b9585dc16178f3de7b7c286f0492755/transition-1.2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/3b9585dc16178f3de7b7c286f0492755/transition-1.2.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

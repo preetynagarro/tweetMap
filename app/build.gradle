@@ -56,10 +56,7 @@ android {
     configurations {
         devDebugImplementation
         devReleaseImplementation
-        uatDebugImplementation
-        uatReleaseImplementation
-        pilotDebugImplementation
-        pilotReleaseImplementation
+
         prodDebugImplementation
         prodReleaseImplementation
     }
@@ -93,9 +90,7 @@ dependencies {
     implementation "org.koin:koin-androidx-viewmodel:$koinVersion"
     implementation "org.koin:koin-core:$koinVersion"
 
-    //Calligraphy
-    implementation "io.github.inflationx:calligraphy3:$calligrapyVersion"
-    implementation "io.github.inflationx:viewpump:$viewpumpVersion"
+
 
     // Navigation Jetpack
     implementation "androidx.navigation:navigation-fragment-ktx:$navVersion"
@@ -109,19 +104,12 @@ dependencies {
     implementation "com.squareup.okio:okio:$okioVersion"
     implementation "com.squareup.okhttp3:okhttp-urlconnection:$urlConnectionVersion"
 
-
     //Coroutine
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutineVersion"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineVersion"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutineVersion"
     implementation "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:$coroutineAdapterVersion"
-
-    /* Android Architecture Component - Room Persistance Lib  */
-    implementation "androidx.room:room-runtime:$roomVersion"
-    kapt "androidx.room:room-compiler:$roomVersion"
-    implementation "androidx.room:room-common:$roomVersion"
-
-    implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+ implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
 
 
 }

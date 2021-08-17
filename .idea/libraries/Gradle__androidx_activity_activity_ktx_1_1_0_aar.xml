@@ -5,9 +5,10 @@
       <root url="jar://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/cb8ddaadd3e7ecc89ad51dd840c38852/jetified-activity-ktx-1.1.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/cb8ddaadd3e7ecc89ad51dd840c38852/jetified-activity-ktx-1.1.0/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/cb8ddaadd3e7ecc89ad51dd840c38852/jetified-activity-ktx-1.1.0/res" />
-      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/cb8ddaadd3e7ecc89ad51dd840c38852/jetified-activity-ktx-1.1.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/cb8ddaadd3e7ecc89ad51dd840c38852/jetified-activity-ktx-1.1.0/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/cb8ddaadd3e7ecc89ad51dd840c38852/jetified-activity-ktx-1.1.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/8e89c7118f9242b984e7253845896db8/jetified-activity-ktx-1.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/8e89c7118f9242b984e7253845896db8/jetified-activity-ktx-1.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/8e89c7118f9242b984e7253845896db8/jetified-activity-ktx-1.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

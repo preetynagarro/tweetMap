@@ -11,7 +11,7 @@ import org.koin.core.context.startKoin
  * Application class
 
  *****/
-class CleanApp : Application() {
+class TweetApp : Application() {
 
     private var localeContext: Context? = null
 
@@ -20,7 +20,7 @@ class CleanApp : Application() {
     }
 
     companion object {
-        private lateinit var instance: CleanApp
+        private lateinit var instance: TweetApp
 
         private var isAppVisible: Boolean = false
 
@@ -32,11 +32,11 @@ class CleanApp : Application() {
             return instance.localeContext ?: instance.applicationContext
         }
 
-        fun getInstance(): CleanApp {
+        fun getInstance(): TweetApp {
             return instance
         }
 
-        fun setInstance(application: CleanApp) {
+        fun setInstance(application: TweetApp) {
             instance = application
         }
 
@@ -55,7 +55,7 @@ class CleanApp : Application() {
         AppInjector.init(this)
 
         startKoin {
-            androidContext(this@CleanApp)
+            androidContext(this@TweetApp)
         }
 
         loadAllModules()

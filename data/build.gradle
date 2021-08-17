@@ -43,11 +43,7 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutineVersion"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineVersion"
 
-    /* Android Architecture Component - Room Persistance Lib  */
-    implementation "androidx.room:room-runtime:$roomVersion"
-    kapt "androidx.room:room-compiler:$roomVersion"
-    implementation "androidx.room:room-common:$roomVersion"
-    implementation  "androidx.room:room-ktx:$roomVersion"
+
 
     //Retrofit
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"

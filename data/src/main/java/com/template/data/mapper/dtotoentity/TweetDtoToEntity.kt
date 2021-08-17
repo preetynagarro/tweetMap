@@ -11,7 +11,6 @@ fun TweetDto.TweetData.map() = TweetEntity.TweetData(
 
 fun TweetDto.Includes.map() = TweetEntity.Includes(
     tweets = tweets?.map()
-//    places = places?.map()
 )
 
 fun TweetDto.MultipleTweetPayload.map()  = TweetEntity.MultipleTweetPayload(
@@ -26,11 +25,4 @@ fun List<TweetDto.TweetData>.map(): List<TweetEntity.TweetData> {
     }
     return list
 }
-/*
-fun List<AuthDto.Place>.map(): List<AuthEntity.Place> {
-    val list: ArrayList<AuthEntity.Place> = arrayListOf()
-    forEach { place ->
-        list.add(place.map())
-    }
-    return list
-} */
+

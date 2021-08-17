@@ -9,9 +9,7 @@ import com.template.core.arc.SingleLiveEvent
 
  *****/
 class ToolbarPropertyViewModel : ViewModel() {
-    var showBack = MutableLiveData<Boolean>(true)
-    var showClose = MutableLiveData<Boolean>(false)
-    var toolbarTitle = MutableLiveData<String>()
+
     val closeButtonAction: SingleLiveEvent<Boolean> = SingleLiveEvent()
     val backButtonAction: SingleLiveEvent<Boolean> = SingleLiveEvent()
 }

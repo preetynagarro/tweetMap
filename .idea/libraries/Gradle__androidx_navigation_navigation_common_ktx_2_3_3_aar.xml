@@ -6,8 +6,9 @@
       <root url="jar://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/0f701ebcf6f822838396ee6ce4627698/navigation-common-ktx-2.3.3/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/0f701ebcf6f822838396ee6ce4627698/navigation-common-ktx-2.3.3/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/0f701ebcf6f822838396ee6ce4627698/navigation-common-ktx-2.3.3/res" />
-      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/0f701ebcf6f822838396ee6ce4627698/navigation-common-ktx-2.3.3/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/0f701ebcf6f822838396ee6ce4627698/navigation-common-ktx-2.3.3/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/f45c26f96720ad7a3ed58034c8375771/navigation-common-ktx-2.3.3/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/f45c26f96720ad7a3ed58034c8375771/navigation-common-ktx-2.3.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/f45c26f96720ad7a3ed58034c8375771/navigation-common-ktx-2.3.3/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

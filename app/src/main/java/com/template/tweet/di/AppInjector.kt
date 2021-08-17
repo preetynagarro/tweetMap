@@ -3,7 +3,7 @@ package com.template.tweet.di
 import android.app.Activity
 import android.app.Application
 import android.os.Bundle
-import com.template.tweet.CleanApp
+import com.template.tweet.TweetApp
 
 /**
  * Helper class to automatically inject fragments if they implement [Injectable].
@@ -14,10 +14,10 @@ object AppInjector {
     private var resumed = 0
     private var paused = 0
 
-    fun init(cleanApp: CleanApp) {
-        cleanApp.registerActivityLifecycleCallbacks(object : Application.ActivityLifecycleCallbacks {
+    fun init(tweetApp: TweetApp) {
+        tweetApp.registerActivityLifecycleCallbacks(object : Application.ActivityLifecycleCallbacks {
             override fun onActivityCreated(activity: Activity, savedInstanceState: Bundle?) {
-                cleanApp.setLocaleContext(activity)
+                tweetApp.setLocaleContext(activity)
             }
 
             override fun onActivityStarted(activity: Activity) {
@@ -26,7 +26,7 @@ object AppInjector {
 
             override fun onActivityResumed(activity: Activity) {
                 ++resumed
-                CleanApp.setAppVisible(true)
+                TweetApp.setAppVisible(true)
             }
 
             override fun onActivityPaused(activity: Activity) {
@@ -34,7 +34,7 @@ object AppInjector {
             }
 
             override fun onActivityStopped(activity: Activity) {
-                CleanApp.setAppVisible(resumed > paused)
+                TweetApp.setAppVisible(resumed > paused)
             }
 
             override fun onActivitySaveInstanceState(activity: Activity, outState: Bundle) {

@@ -5,9 +5,10 @@
       <root url="jar://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/e87d89c81a30cde5f59089d290bb8250/jetified-viewbinding-4.1.2/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/e87d89c81a30cde5f59089d290bb8250/jetified-viewbinding-4.1.2/res" />
       <root url="file://$PROJECT_DIR$/../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/e87d89c81a30cde5f59089d290bb8250/jetified-viewbinding-4.1.2/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/e87d89c81a30cde5f59089d290bb8250/jetified-viewbinding-4.1.2/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/e87d89c81a30cde5f59089d290bb8250/jetified-viewbinding-4.1.2/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/e87d89c81a30cde5f59089d290bb8250/jetified-viewbinding-4.1.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/cae4f57e16b008175629f79d748e2889/jetified-viewbinding-4.1.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/cae4f57e16b008175629f79d748e2889/jetified-viewbinding-4.1.2/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../../../gradle-7.0.2/caches/transforms-2/files-2.1/cae4f57e16b008175629f79d748e2889/jetified-viewbinding-4.1.2/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
